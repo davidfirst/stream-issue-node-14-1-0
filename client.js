@@ -10,7 +10,7 @@ const PRIVATE_KEY_PATH = `${os.userInfo().homedir}/.ssh/id_rsa`;
 const SERVER_PATH = path.join(__dirname, 'server.js');
 
 const strSizeInMB = 10;
-const MB = 1024*1024;
+const MB = 1024 * 1024;
 const hugeStr = new Array((strSizeInMB * MB) + 1).join('a');
 
 const conn = new Client();
