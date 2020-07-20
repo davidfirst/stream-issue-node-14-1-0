@@ -1,10 +1,10 @@
 {
-  "name": "streams",
+  "name": "ssh-streams",
   "version": "1.0.0",
   "description": "",
-  "main": "child.js",
+  "main": "client.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node client.js"
   },
   "keywords": [],
   "author": "",

@@ -1,8 +1,4 @@
 /* eslint-disable no-console */
-const fs = require('fs');
-
-console.log('Server node version', process.version);
-
 let data = '';
 process.stdin.on('data', (chunk) => {
   data += chunk.toString();
@@ -22,5 +18,5 @@ process.stdin.on('data', (chunk) => {
 
 process.stdin.on('end', () => {
   const size = data.length;
-  console.log(`END TOTAL DATA ${size}B. ${Math.floor(size / 1024)}KB ${Math.floor(size / 1024 / 1024)}MB`);
+  console.log(`END TOTAL DATA ${Math.floor(size / 1024 / 1024)}MB`);
 });

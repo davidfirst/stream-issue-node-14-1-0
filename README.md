@@ -2,7 +2,7 @@ The issue started since node v14.1.0.
 
 To reproduce the issue, please run `node client.js`.
 
-On node <= v14.0.0, the last line printed on the console is "SERVER STDOUT:  END TOTAL DATA 10485760B. 10240KB 10MB".
+On node <= v14.0.0, the last line printed on the console is "SERVER STDOUT:  END TOTAL DATA 10MB".
 
 On node >= 14.1.0, it never gets to the "end" event in the server.js file, as a result, the line above never gets printer.
 
