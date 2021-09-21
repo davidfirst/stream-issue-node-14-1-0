@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ssh2": "^0.8.9"
+    "ssh2": "^1.4.0"
   },
   "devDependencies": {
     "eslint": "^7.5.0",
